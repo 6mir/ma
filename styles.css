@@ -194,46 +194,29 @@ footer {
     html {
         font-size: 8px;
     }
-
     header {
         .search {
-            .img {
-                width: 2.6rem;
-            }
-
-            input {
-                height: 4.5rem;
-            }
-
             input::placeholder {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
             }
         }
-
         p {
             font-size: 25px;
         }
     }
-
     main {
         margin-inline: 2rem;
-
         .title {
             h2 {
                 font-size: 1.6rem;
             }
         }
-
         .box {
             gap: 1rem;
 
             .img {
                 width: 12rem;
                 height: 12rem;
-            }
-
-            p {
-                font-size: 1.2rem;
             }
         }
     }
