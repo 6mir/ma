@@ -80,7 +80,7 @@ header {
             color: #fff;
             padding: 0.5rem;
             padding-right: 0.2rem;
-            border-radius: 0.5rem;
+            border-radius: 1rem;
             font-family: A;
             font-size: 1.4rem;
         }
@@ -100,7 +100,7 @@ header {
 }
 
 main {
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     padding: 1rem;
     margin-inline: 3rem;
     background-color: #0F1926;
@@ -125,7 +125,7 @@ main {
         .item {
             text-align: center;
             background: #1e2835;
-            border-radius: 1rem;
+            border-radius: 1.5rem;
             padding-bottom: 1rem;
         }
 
@@ -134,8 +134,8 @@ main {
             height: 19rem;
 
             img {
-                border-top-right-radius: 1rem;
-                border-top-left-radius: 1rem;
+                border-top-right-radius:1.5rem;
+                border-top-left-radius:1.5rem;
                 object-fit: cover;
             }
         }
@@ -196,6 +196,9 @@ footer {
     }
     header {
         .search {
+        input {
+            height: 5rem;
+        }
             input::placeholder {
                 font-size: 1.5rem;
 .img{
